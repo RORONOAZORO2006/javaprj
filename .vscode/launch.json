@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run Task Manager CLI",
+            "request": "launch",
+            "mainClass": "com.example.Main",
+            "projectName": "javaprj",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Run Unit Tests",
+            "request": "launch",
+            "mainClass": "com.example.test.TestRunner",
+            "projectName": "javaprj",
+            "console": "integratedTerminal"
+        }
+    ]
+}
